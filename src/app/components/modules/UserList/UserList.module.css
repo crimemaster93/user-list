@@ -1,0 +1,20 @@
+.userList {
+  width: 25%;
+  border-right: 1px solid #ccc;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.userList ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.userList li {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.userList li.selected {
+  background-color: #f0f0f0;
+}
